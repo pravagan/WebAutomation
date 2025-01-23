@@ -1,0 +1,11 @@
+16:34:10.741 [main] INFO  testCases.TC001_AccountRegistrationTest -  ****** Starting TC001_AccountRegistrationTest ******* 
+16:34:10.776 [main] INFO  testCases.TC001_AccountRegistrationTest -  ****** Clicked on MyAccount link ******* 
+16:34:11.333 [main] INFO  testCases.TC001_AccountRegistrationTest -  ****** Clicked on Register link ******* 
+16:34:11.334 [main] INFO  testCases.TC001_AccountRegistrationTest -  ****** Providing Customer Details ******* 
+16:34:12.045 [main] INFO  testCases.TC001_AccountRegistrationTest -  ****** Validating Registration Confirmation message ******* 
+16:34:22.088 [main] ERROR testCases.TC001_AccountRegistrationTest - **** Test Failed ****
+16:34:22.088 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs
+16:34:25.487 [main] INFO  testCases.TC002_LoginTest -  ***** starting Login Test***** 
+16:34:25.871 [main] INFO  testCases.TC002_LoginTest -  ***** Clicked on Login link ***** 
+16:34:27.299 [main] INFO  testCases.TC002_LoginTest -  ***** Entered Login credentials and clicked on Login link ***** 
+16:34:27.316 [main] INFO  testCases.TC002_LoginTest -  ***** finished Login Test***** 
