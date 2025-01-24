@@ -1,5 +1,6 @@
 package testCases;
 
+import com.aventstack.chaintest.plugins.ChainTestListener;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 
 import java.io.File;
@@ -16,6 +18,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
+
+@Listeners(ChainTestListener.class)
 
 public class BaseClass {
     public WebDriver driver;
