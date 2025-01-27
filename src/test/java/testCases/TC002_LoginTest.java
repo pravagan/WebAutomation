@@ -23,7 +23,7 @@ public class TC002_LoginTest extends BaseClass{
             LoginPage lp = new LoginPage(driver);
             lp.setEmailaddress(p.getProperty("email"));
             lp.setPassword(p.getProperty("password"));
-            lp.setCustlogin();
+            lp.clickCustlogin();
             logger.info(" ***** Entered Login credentials and clicked on Login link ***** ");
 
             MyAccountPage map = new MyAccountPage(driver);

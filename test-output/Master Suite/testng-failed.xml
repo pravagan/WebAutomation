@@ -4,13 +4,13 @@
   <test thread-count="5" name=" Chrome Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest">
+      <class name="testCases.TC003_DataDrivenLoginTest">
         <methods>
-          <include name="verify_account_registration"/>
           <include name="setup"/>
           <include name="teardown"/>
+          <include name="verify_loginDDT" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      </class> <!-- testCases.TC003_DataDrivenLoginTest -->
     </classes>
   </test> <!--  Chrome Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

@@ -24,7 +24,7 @@ public class LoginPage extends BasePage{
         password.sendKeys(pwd);
     }
 
-    public void setCustlogin( ) {
+    public void clickCustlogin( ) {
         custlogin.click();
     }
 }
